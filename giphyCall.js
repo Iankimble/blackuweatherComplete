@@ -4,7 +4,7 @@ function giphyData() {
     var searchTerm1 = cityForcast
     var key = "vGqNVOHVpTq2I38yL5iqbi3Zpg6HYzEB"
 
-    var giphy1 = "https://api.giphy.com/v1/gifs/search?q=" + gifTerm + "&api_key=" + key;
+    var giphy1 = "http://api.giphy.com/v1/gifs/search?q=" + gifTerm + "&api_key=" + key;
     $.ajax({
         url: giphy1,
         method: "GET",
